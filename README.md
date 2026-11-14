@@ -164,7 +164,8 @@ This confirmed that SMB was accessible on TCP port `445`.
 ### Evidence
 
 > **Screenshot:** Initial Nmap scan showing SMB port 445 open.
-![networkrecon](screenshots/networkrecon.png)
+
+![detection](screenshots/networkrecon.png)
 
 ---
 
@@ -206,9 +207,9 @@ Logon Type `3` represented a network logon event, which was relevant to the SMB-
 
 > **Screenshot:** Wazuh alert showing failed authentication activity and source IP.
 
- ![Wazuh-bruteforce-email-alert](wazuh-bruteforce-email-alert.png)
+ ![Wazuh-bruteforce-email-alert](screenshots/wazuh-bruteforce-email-alert.png)
 
- ![Wazuh-filed-investigation](wazuh-failed-logon-investigation.png)
+ ![Wazuh-filed-investigation](screenshots/wazuh-failed-logon-investigation.png)
 
 
 ---
@@ -254,7 +255,7 @@ The detection logic was designed to identify repeated authentication failures th
 
 > **Screenshot:** Wazuh custom detection rule configuration.
 
-📸 *Add your `local_rules.xml` screenshot here.*
+![Wazuh-filed-investigation](screenshots/detecttion-rule.png)
 
 ---
 
@@ -303,11 +304,11 @@ The activity confirmed that repeated authentication attempts originated from the
 
 > **Screenshot:** Splunk authentication search results showing failed authentication events.
 
-📸 *Add your Splunk authentication investigation screenshot here.*
+![splunk](screenshots/splunk1.png)
 
 > **Screenshot:** Evidence showing successful authentication activity.
 
-📸 *Add your successful logon evidence here.*
+![splunk](screenshots/splunk2.png)
 
 ---
 
