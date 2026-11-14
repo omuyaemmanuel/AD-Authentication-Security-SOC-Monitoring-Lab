@@ -146,7 +146,7 @@ This created a realistic investigation scenario involving:
 
 ---
 
-# 🔎 Initial Network Reconnaissance
+#  Initial Network Reconnaissance
 
 Before the authentication testing, the target endpoint was scanned to identify exposed services.
 
@@ -259,7 +259,7 @@ The detection logic was designed to identify repeated authentication failures th
 
 ---
 
-# 🔍 Investigation
+#  Investigation
 
 The investigation was performed using **Wazuh and Splunk**.
 
@@ -397,7 +397,7 @@ No suspicious outbound network activity, malicious downloads, or clearly suspici
 
 ---
 
-# 📊 Investigation Summary
+#  Investigation Summary
 
 The investigation established the following:
 
@@ -417,7 +417,7 @@ The investigation established the following:
 
 ---
 
-# 🧠 Incident Findings
+#  Incident Findings
 
 The investigation determined that the primary security concern was repeated authentication activity originating from the Kali Linux attack source.
 
@@ -683,7 +683,7 @@ This project demonstrates practical SOC and security operations skills, includin
 
 ---
 
-# 📸 Evidence Collected
+#  Evidence Collected
 
 The following evidence was collected during the project:
 
