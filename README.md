@@ -168,7 +168,7 @@ This confirmed that SMB was accessible on TCP port `445`.
 
 ---
 
-# 🚨 Detection
+#  Detection
 
 ## Windows Authentication Events
 
@@ -206,7 +206,8 @@ Logon Type `3` represented a network logon event, which was relevant to the SMB-
 
 > **Screenshot:** Wazuh alert showing failed authentication activity and source IP.
 
-📸 *Add your Wazuh Event ID 4625 screenshot here.*
+ ![Wazuh-filed-investigation](wazuh-failed-logon-investigation.png)
+
 
 ---
 
