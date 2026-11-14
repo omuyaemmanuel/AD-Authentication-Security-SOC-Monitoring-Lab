@@ -48,7 +48,7 @@ The lab consisted of multiple systems performing different security and infrastr
 
 ---
 
-# 🎯 Project Objectives
+#  Project Objectives
 
 The objectives of this project were to:
 
@@ -65,7 +65,7 @@ The objectives of this project were to:
 
 ---
 
-# 🏗️ Detection and Monitoring Architecture
+#  Detection and Monitoring Architecture
 
 The Windows systems generated security and endpoint telemetry.
 
@@ -107,7 +107,7 @@ WIN10-PRO01
 
 ---
 
-# ⚔️ Attack Scenario
+#  Attack Scenario
 
 A controlled authentication attack was performed from the Kali Linux machine against **WIN10-PRO01**.
 
@@ -165,7 +165,7 @@ This confirmed that SMB was accessible on TCP port `445`.
 
 > **Screenshot:** Initial Nmap scan showing SMB port 445 open.
 
-📸 *Add your screenshot here.*
+📸 **
 
 ---
 
