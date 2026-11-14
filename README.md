@@ -554,7 +554,7 @@ The post-remediation result demonstrated that traffic from the Kali attack sourc
 
 > **Screenshot:** Post-remediation Nmap scan showing TCP port 445 filtered.
 
-![splunk](screenshots/ip-block2.png)
+![confirmation](screenshots/port-blocked-confirmation.png)
 
 ---
 
