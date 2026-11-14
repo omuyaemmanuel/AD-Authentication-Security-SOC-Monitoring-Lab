@@ -309,6 +309,7 @@ The activity confirmed that repeated authentication attempts originated from the
 > **Screenshot:** Evidence showing successful authentication activity.
 
 ![splunk](screenshots/splunk2.png)
+![splunk](screenshots/splunk2.png)
 
 ---
 
