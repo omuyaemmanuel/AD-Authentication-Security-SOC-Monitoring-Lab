@@ -255,7 +255,7 @@ The detection logic was designed to identify repeated authentication failures th
 
 > **Screenshot:** Wazuh custom detection rule configuration.
 
-![Wazuh-detection-rule](screenshots/detecttion-rule.png)
+ ![Wazuh-detecttion](screenshots/wazuh-detecttion-rule.png)
 
 ---
 
