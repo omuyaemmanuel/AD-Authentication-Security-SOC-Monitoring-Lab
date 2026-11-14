@@ -165,7 +165,7 @@ This confirmed that SMB was accessible on TCP port `445`.
 
 > **Screenshot:** Initial Nmap scan showing SMB port 445 open.
 
-![detection](screenshots/networkrecon.png)
+![recon](screenshots/networkrecon.png)
 
 ---
 
@@ -255,7 +255,7 @@ The detection logic was designed to identify repeated authentication failures th
 
 > **Screenshot:** Wazuh custom detection rule configuration.
 
-![Wazuh-failed-investigation](screenshots/detecttion-rule.png)
+![Wazuh-detection-rule](screenshots/detecttion-rule.png)
 
 ---
 
