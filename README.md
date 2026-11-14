@@ -165,7 +165,7 @@ This confirmed that SMB was accessible on TCP port `445`.
 
 > **Screenshot:** Initial Nmap scan showing SMB port 445 open.
 
-📸 **
+📸 *screenshots/networkrecon.png*
 
 ---
 
