@@ -352,8 +352,8 @@ No suspicious post-authentication process execution was identified during the re
 ![splunk](screenshots/splunk-lolbin-investigation.png)
 ![splunk](screenshots/splunk-image-eventid1.png)
 ![splunk](screenshots/splunk-commandline-eventid1.png)
-![splunk](screenshots/splunk-parentimage-eventid1)
-![splunk](screenshots/splunk-parentcommandlind-eventid1.png)
+![splunk](screenshots/splunk-parentimage-eventid1.png)
+![splunk](screenshots/splunk-parentcomandlind-eventid1.png)
 
 ---
 
