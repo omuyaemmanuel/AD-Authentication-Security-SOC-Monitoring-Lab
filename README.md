@@ -530,7 +530,7 @@ This containment action prevented the identified attack source from continuing t
 
 ---
 
-# ✅ Verification
+#  Verification
 
 After implementing the Windows Firewall containment rule, connectivity was tested again from the Kali Linux attack machine.
 
@@ -554,11 +554,11 @@ The post-remediation result demonstrated that traffic from the Kali attack sourc
 
 > **Screenshot:** Post-remediation Nmap scan showing TCP port 445 filtered.
 
-📸 *Add your verification screenshot here.*
+![splunk](screenshots/ip-block2.png)
 
 ---
 
-# 🔄 SOC Incident Response Lifecycle
+#  SOC Incident Response Lifecycle
 
 This project demonstrates a complete SOC investigation workflow:
 
@@ -602,7 +602,7 @@ A post-remediation network scan confirmed that SMB traffic from the Kali attack 
 
 ---
 
-# 🧰 Technologies and Tools Used
+#  Technologies and Tools Used
 
 ### Security Monitoring
 
@@ -639,7 +639,7 @@ A post-remediation network scan confirmed that SMB traffic from the Kali attack 
 
 ---
 
-# 💼 Skills Demonstrated
+#  Skills Demonstrated
 
 This project demonstrates practical SOC and security operations skills, including:
 
@@ -702,7 +702,7 @@ The following evidence was collected during the project:
 
 ---
 
-# 🎓 Key Lessons Learned
+#  Key Lessons Learned
 
 This project reinforced several important SOC principles:
 
@@ -747,7 +747,7 @@ Potential improvements for this lab include:
 
 ---
 
-# 📌 Conclusion
+#  Conclusion
 
 This project demonstrates a practical end-to-end SOC workflow in a Windows Active Directory environment.
 
