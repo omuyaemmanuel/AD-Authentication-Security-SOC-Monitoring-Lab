@@ -206,12 +206,14 @@ Logon Type `3` represented a network logon event, which was relevant to the SMB-
 
 > **Screenshot:** Wazuh alert showing failed authentication activity and source IP.
 
+ ![Wazuh-bruteforce-email-alert](wazuh-bruteforce-email-alert.png)
+
  ![Wazuh-filed-investigation](wazuh-failed-logon-investigation.png)
 
 
 ---
 
-# 🛡️ Custom SOC Detection Rule
+#  Custom SOC Detection Rule
 
 A custom Wazuh detection rule was configured to identify repeated failed network logons originating from the same source IP address.
 
