@@ -255,7 +255,7 @@ The detection logic was designed to identify repeated authentication failures th
 
 > **Screenshot:** Wazuh custom detection rule configuration.
 
-![Wazuh-filed-investigation](screenshots/detecttion-rule.png)
+![Wazuh-failed-investigation](screenshots/detecttion-rule.png)
 
 ---
 
@@ -308,7 +308,7 @@ The activity confirmed that repeated authentication attempts originated from the
 
 > **Screenshot:** Evidence showing successful authentication activity.
 
-![splunk](screenshots/splunk2.png)
+![splunk](screenshots/successful-logon-email-alert.png)
 ![splunk](screenshots/splunk2.png)
 
 ---
@@ -349,7 +349,11 @@ No suspicious post-authentication process execution was identified during the re
 
 > **Screenshot:** Splunk process execution investigation.
 
-📸 *Add your Sysmon Event ID 1 screenshots here.*
+![splunk](screenshots/splunk-lolbin-investigation.png)
+![splunk](screenshots/splunk-image-eventid1.png)
+![splunk](screenshots/splunk-commandline-eventid1.png)
+![splunk](screenshots/splunk-parentimage-eventid1)
+![splunk](screenshots/splunk-parentcommandlind-eventid1.png)
 
 ---
 
@@ -387,7 +391,9 @@ No suspicious outbound network activity, malicious downloads, or clearly suspici
 
 > **Screenshot:** Splunk Sysmon Event ID 3 network connection analysis.
 
-📸 *Add your network connection investigation screenshot here.*
+![splunk](screenshots/splunk-eventid3-1.png)
+![splunk](screenshots/splunk-eventid3-1b.png)
+![splunk](screenshots/splunk-eventid3-1c.png)
 
 ---
 
@@ -445,11 +451,11 @@ Based on the available evidence, remediation focused on strengthening authentica
 
 ---
 
-# 🛠️ Remediation
+#  Remediation
 
 Following the investigation, several remediation and containment actions were implemented.
 
-## 1️⃣ Account Password Remediation
+##  Account Password Remediation
 
 The password associated with the targeted account was reset and replaced with a stronger password.
 
@@ -459,7 +465,7 @@ This reduced the risk associated with the credentials involved in the authentica
 
 > **Screenshot:** Account password remediation.
 
-📸 *Add your password reset evidence here.*
+![password](screenshots/password-reset.png)
 
 ---
 
@@ -481,7 +487,7 @@ The lockout threshold was selected to align authentication protection with the i
 
 > **Screenshot:** Active Directory account lockout policy configuration.
 
-📸 *Add your Group Policy screenshot here.*
+![AD LOCKOUT](screenshots/account-lockout-policy.png)
 
 ---
 
@@ -520,7 +526,7 @@ This containment action prevented the identified attack source from continuing t
 
 > **Screenshot:** Windows Firewall rule blocking the Kali attack source.
 
-📸 *Add your firewall rule screenshot here.*
+![splunk](screenshots/ip-block2.png)
 
 ---
 
